@@ -1,15 +1,20 @@
 1. Introduction
+
 This Python script simulates an ordering system for a frozen yogurt and ice cream shop. Customers can place orders for frozen yogurt or ice cream, choose various sizes, containers, and toppings, and add cookies to their order. The system calculates the order total and applies a weekend discount if applicable. At the end of the day, a sales report is generated.
 
 2. Features
+
 Menu Options: Offers frozen yogurt and ice cream with various sizes, containers, toppings, and cookies.
 Order Management: Takes customer orders, calculates totals, and applies discounts.
 Order History: Tracks individual customer order totals.
 Sales Report: Generates a report summarizing sales and averages.
 3. System Requirements
+
 Python 3.6 or later
 A terminal or command-line interface
+
 4. Installation
+
 Clone the Repository: Clone this repository to your local machine using:
 
 bash
@@ -28,6 +33,7 @@ python yogurt_shop.py
 Replace <repository_url> and <repository_directory> with the actual URL and directory name.
 
 5. Usage
+
 Starting the System: Run the script using Python. The system will prompt you to enter your name and order details.
 
 Ordering Process:
@@ -46,6 +52,7 @@ Choose to continue or quit the system.
 Generating Reports: A sales report is automatically generated when quitting the system.
 
 6. Code Overview
+
 Menu Definition
 The menu is defined as a dictionary with prices for various items:
 
